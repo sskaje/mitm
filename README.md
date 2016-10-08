@@ -6,6 +6,23 @@ This proxy is not for *SSL to plain* or *SSL to SSL* hijacking.
 Author: sskaje ([http://sskaje.me/](http://sskaje.me/))
 
 
+##Install
+
+### Clone Code
+```
+$ git clone git@github.com:sskaje/mitm.git
+```
+or 
+```
+$ git clone https://github.com/sskaje/mitm.git
+```
+
+### Composer Install Dependencies
+```
+$ cd mitm
+$ php composer.phar install
+```
+
 
 ##Try out
 
