@@ -1,0 +1,23 @@
+{
+  "name": "sskaje/mitm",
+  "description": "MiTM Proxy by sskaje",
+  "keywords": [
+    "mitm",
+    "proxy"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0.0",
+    "react/react": "0.4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "sskaje\\mitm\\": "src\\"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "sskaje\\Tests\\mitm\\": "tests\\"
+    }
+  }
+}
