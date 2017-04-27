@@ -1,4 +1,4 @@
-#PHP-MiTM
+# PHP-MiTM
 **PHP** **M**an-**i**n-**T**he-**M**iddle TCP Proxy based on ReactPHP.
 
 This proxy is not for *SSL to plain* or *SSL to SSL* hijacking. 
@@ -6,7 +6,7 @@ This proxy is not for *SSL to plain* or *SSL to SSL* hijacking.
 Author: sskaje ([http://sskaje.me/](http://sskaje.me/))
 
 
-##Install
+## Install
 
 ### Clone Code
 ```
@@ -24,18 +24,18 @@ $ php composer.phar install
 ```
 
 
-##Try out
+## Try out
 
 **examples/proxy.php** is a simple implementation of PHP-MiTM sending logs to stderr.
 
 **examples/verbose.php** does the same and dumps traffic data to stderr. 
 
-###Usage
+### Usage
 ```
 php examples/proxy.php LISTEN_PORT CONNECT_HOST CONNECT_PORT [RESOLVER]
 ```
 
-###Examples
+### Examples
 1. Forward TCP DNS requests to 127.0.0.1:53 to 114.114.114.114:53
 
 This requires ROOT permission, you must know why.
@@ -89,7 +89,7 @@ You'll see
 
 
 
-##More
+## More
 
 ### Hijacking Traffic on Router
 
